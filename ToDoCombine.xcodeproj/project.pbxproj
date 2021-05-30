@@ -11,6 +11,8 @@
 		402266D226634ED200A6CA0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402266D126634ED200A6CA0D /* ContentView.swift */; };
 		402266D426634ED700A6CA0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402266D326634ED700A6CA0D /* Assets.xcassets */; };
 		402266D726634ED700A6CA0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402266D626634ED700A6CA0D /* Preview Assets.xcassets */; };
+		402266DF26634EFD00A6CA0D /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402266DE26634EFD00A6CA0D /* TaskViewModel.swift */; };
+		402266E1266354E600A6CA0D /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402266E0266354E600A6CA0D /* AddTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		402266D326634ED700A6CA0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		402266D626634ED700A6CA0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		402266D826634ED700A6CA0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		402266DE26634EFD00A6CA0D /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		402266E0266354E600A6CA0D /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				402266CF26634ED200A6CA0D /* ToDoCombineApp.swift */,
+				402266DE26634EFD00A6CA0D /* TaskViewModel.swift */,
 				402266D126634ED200A6CA0D /* ContentView.swift */,
+				402266E0266354E600A6CA0D /* AddTaskView.swift */,
 				402266D326634ED700A6CA0D /* Assets.xcassets */,
 				402266D826634ED700A6CA0D /* Info.plist */,
 				402266D526634ED700A6CA0D /* Preview Content */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				402266D226634ED200A6CA0D /* ContentView.swift in Sources */,
+				402266DF26634EFD00A6CA0D /* TaskViewModel.swift in Sources */,
 				402266D026634ED200A6CA0D /* ToDoCombineApp.swift in Sources */,
+				402266E1266354E600A6CA0D /* AddTaskView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
